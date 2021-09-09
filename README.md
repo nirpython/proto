@@ -1,5 +1,5 @@
 # Hello sir 
-i upload a zip file of the project 
+i upload a rar file of the project 
 please unzip it in you local system 
 
 - GO TO proto directory
