@@ -1,6 +1,8 @@
-# Hello sir 
-i upload a rar file of the project 
-please unzip it in you local system 
+XPLUR Project
+
+Directions to use:
+The project has been attached as a RAR file
+Please unzip it in you local system 
 
 - GO TO proto directory
 cd proto
@@ -11,39 +13,36 @@ or windows
 venv\Scripts\activate.bat
 
 
+Load the requirements.txt file for dependancies 
 
-Now load the requirements.txt file for dependancies 
-
-pip install -r requirements.txt  // it will load all dependenies for running app
+pip install -r requirements.txt  // it will load all required dependenies for running the app
 
 then 
-if you want to run app in you local mechine
+
+To run app in your local machine
 
 $python app.py 
 
-it will activte devlopment server on port on http://127.0.0.1:1224/
+It will activate development server on port on http://127.0.0.1:1224/
 
 Api End points:
 
 
-#retrieve all the products   http://127.0.0.1:1224/products
+#Retrieve all the products   http://127.0.0.1:1224/products
 
+#Retrieve one product  http://127.0.0.1:1224/product/Name
 
-#retrieve one product  http://127.0.0.1:1224/product/Name
+#Rreate a product  http://127.0.0.1:1224/product
 
-#create a product  http://127.0.0.1:1224/product
-
-
-#update a product  http://127.0.0.1:1224/update/name
+#Update a product  http://127.0.0.1:1224/update/name
 
 #Delete a product  http://127.0.0.1:1224/delete/name
 
 
-
-
 --------------------------------------------------------------------------------------------
-Sir also you can run this app in docker  
-here is the detail: 
+You can alternatively run this app in docker  
+
+Below are the steps to follow: 
 
 (venv) G:\proto>docker ps
 CONTAINER ID   IMAGE       COMMAND           CREATED         STATUS         PORTS
