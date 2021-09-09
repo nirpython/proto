@@ -25,10 +25,17 @@ it will activte devlopment server on port on http://127.0.0.1:1224/
 
 Api End points:
 
+
 #retrieve all the products   http://127.0.0.1:1224/products
+
+
 #retrieve one product  http://127.0.0.1:1224/product/Name
+
 #create a product  http://127.0.0.1:1224/product
+
+
 #update a product  http://127.0.0.1:1224/update/name
+
 #Delete a product  http://127.0.0.1:1224/delete/name
 
 
